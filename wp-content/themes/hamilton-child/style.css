@@ -11,10 +11,6 @@ Updated: 2021-11-09 11:22:57
 
 */
 
-body {
-  background-color: aqua;
+.title entry-title {
+  display: none;
 }
-
-/* .wp-image-6 {
-  width: 5%;
-} */
