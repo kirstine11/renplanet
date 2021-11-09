@@ -11,6 +11,6 @@ Updated: 2021-11-09 11:22:57
 
 */
 
-.title {
+.entry-content > *:first-child {
   display: none;
 }
