@@ -14,3 +14,7 @@ Updated: 2021-11-09 11:22:57
 .entry-content .title {
   display: none;
 }
+
+.wp-block-separator {
+  color: blue;
+}
