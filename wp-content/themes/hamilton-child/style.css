@@ -18,3 +18,10 @@ Updated: 2021-11-09 11:22:57
 .wp-block-separator {
   color: blue;
 }
+.entry-content .alignfull {
+  padding: 50px;
+}
+.entry-content .alignfull p {
+  margin: 40px;
+  margin-right: 50px;
+}
