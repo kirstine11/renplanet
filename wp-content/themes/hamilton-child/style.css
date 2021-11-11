@@ -31,5 +31,9 @@ p {
 }
 
 h2 {
-  font-family: "meriendaone", cursive;
+  font-family: "Neucha", cursive;
+}
+
+.wp-custom-logo .site-header {
+  padding: 0px;
 }

@@ -27,3 +27,10 @@ function add_local_fonts() {
 }
 
 add_action( 'enqueue_block_assets', 'add_local_fonts' );
+/**
+ * Enqueue a script with jQuery as a dependency.
+ */
+function wpdocs_scripts_method() {
+    wp_enqueue_script( 'custom-script', get_stylesheet_directory_uri() . '/customjs.js', array(), true,true );
+}
+add_action( 'wp_enqueue_scripts', 'wpdocs_scripts_method' );
