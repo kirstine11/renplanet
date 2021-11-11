@@ -31,9 +31,16 @@ p {
 }
 
 h2 {
-  font-family: "Neucha", cursive;
+  font-family: "Neucha";
 }
 
+.page-id-2 h2 {
+  color: red;
+}
 .wp-custom-logo .site-header {
   padding: 0px;
+}
+
+a {
+  text-decoration: none;
 }
