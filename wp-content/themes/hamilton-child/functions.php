@@ -22,3 +22,8 @@ endif;
 add_action( 'wp_enqueue_scripts', 'chld_thm_cfg_parent_css', 10 );
 
 // END ENQUEUE PARENT ACTION
+function add_local_fonts() {
+	wp_enqueue_style( 'local_web_fonts', get_stylesheet_directory_uri() . '/fonts.css' );
+}
+
+add_action( 'enqueue_block_assets', 'add_local_fonts' );
