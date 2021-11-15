@@ -72,9 +72,9 @@ p {
 
 /* OM MIG SIDE  */
 
-.page-id-123 .entry-content .alignfull {
+/* .page-id-123 .entry-content .alignfull {
   padding: 50px;
-}
+} */
 
 .page-id-123 .entry-content .alignfull p {
   margin: 40px;
@@ -94,5 +94,9 @@ p {
 
 /* SHOP  */
 .page-id-42 #site-content {
+  background-color: #f2f2f2;
+}
+
+.postid-58 #site-content {
   background-color: #f2f2f2;
 }
