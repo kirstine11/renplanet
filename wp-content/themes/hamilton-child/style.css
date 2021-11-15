@@ -28,6 +28,7 @@ h1 {
 h2 {
   font-family: "Montserrat";
   font-size: 1.4rem;
+  font-weight: 600;
 }
 
 p {
@@ -54,11 +55,49 @@ p {
 
 /* FORSIDE */
 
-/* .entry-content .alignfull {
-  margin: 0 auto;
+/* .wp-block-cover.has-background-dim:not([class*="-background-color"]) {
+  margin-top: 0;
+} */
+
+.page-id-2 .entry-content .alignfull {
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
-.section-inner {
+.img-text {
+  font-family: "neucha";
+  font-size: 40px;
+}
+
+.page-id-2 h5 {
+  font-family: "neucha";
+  font-weight: 600;
+  margin: 0;
+}
+.page-id-2 h2 {
+  font-family: "neucha";
+}
+.page-id-2 h3 {
+  font-family: "neucha";
+  margin: 0;
+  line-height: 0;
+}
+
+.page-id-2 .wp-block-separator {
+  width: 80%;
+  color: #1f7e73;
+  background-color: #f2f2f2;
+}
+
+.page-id-2 .is-style-outline .wp-block-button__link {
+  padding: 10px 24px 10px;
+}
+
+/* .progress-bar .page-id-2 .entry-content .alignfull {
+  margin-bottom: 3rem;
+} */
+
+/* .section-inner {
   margin: 0;
 } */
 
