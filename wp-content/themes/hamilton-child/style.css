@@ -138,3 +138,7 @@ p {
 .page-id-42 .wc-block-grid .wc-block-components-product-title {
   font-family: "neucha";
 }
+
+.page-id-42 h1 {
+  line-height: 6.5rem;
+}
