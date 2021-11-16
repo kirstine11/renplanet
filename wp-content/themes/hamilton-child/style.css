@@ -47,6 +47,7 @@ p {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
+  font-size: "neucha";
 }
 /* Navigation  */
 .show-alt-nav .site-header {
@@ -180,4 +181,8 @@ p {
 
 .page-id-42 h1 {
   line-height: 6.5rem;
+}
+.woocommerce div.product form.cart .button {
+  bottom: -5px;
+  right: -7px;
 }
