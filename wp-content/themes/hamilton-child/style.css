@@ -29,6 +29,7 @@ h2 {
   font-family: "Montserrat";
   font-size: 1.4rem;
   font-weight: 600;
+  line-height: 0.2rem;
 }
 
 p {
@@ -106,6 +107,11 @@ p {
 /* FORSIDE SLUT */
 
 /* INDSAMLING SIDE */
+
+.page-id-10 .entry-content .alignfull {
+  margin-bottom: 0;
+  margin-top: 0;
+}
 
 /* OM MIG SIDE  */
 
@@ -209,4 +215,25 @@ p {
 .postid-58 .entry-content .alignfull {
   margin-bottom: 0;
   margin-top: 0;
+}
+
+/* NYHEDSBREV */
+
+.mc4wp-form-fields {
+  display: flex;
+}
+
+input[type="submit"] {
+  background-color: transparent;
+  border: solid white;
+}
+
+input[type="email"] {
+  color: white;
+  border: solid white;
+  padding: 16px 24px 18px;
+}
+
+.wp-block-media-text .wp-block-media-text__content :first-child {
+  margin-right: 10px;
 }
