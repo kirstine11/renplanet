@@ -247,3 +247,10 @@ input[type="email"] {
 .wp-block-media-text .wp-block-media-text__content :first-child {
   margin-right: 10px;
 }
+
+/* FOOTER  */
+
+.site-footer {
+  background-color: #b8cfd0;
+  width: 100%;
+}
