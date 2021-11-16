@@ -37,7 +37,7 @@ p {
 }
 
 .wp-custom-logo .site-header {
-  padding: 0px;
+  padding: 11px;
 }
 
 .alt-nav li a {
@@ -45,7 +45,11 @@ p {
   text-decoration: none;
   text-transform: uppercase;
   font-family: "neucha";
-  font-size: 1.7em;
+  font-size: 25px;
+}
+
+.site-header .custom-logo {
+  max-height: 77px;
 }
 /* Navigation  */
 .show-alt-nav .site-header {
@@ -104,6 +108,28 @@ p {
   border: solid 2px #1f7e73;
 }
 
+.ub_progress-bar-line-trail {
+  stroke-width: 3px;
+}
+
+.ub_progress-bar-line-path {
+  stroke-linecap: square;
+}
+
+.ub_progress-bar {
+  margin-top: -24px;
+  margin-bottom: 37px;
+}
+
+.page-id-2 .wp-block-image {
+  margin-bottom: -17px;
+}
+
+.page-id-2 .is-style-outline > .wp-block-button__link:hover {
+  background-color: #1f7e73;
+  color: white;
+}
+
 /* FORSIDE SLUT */
 
 /* INDSAMLING SIDE */
@@ -128,6 +154,10 @@ p {
 /* .page-id-123 .entry-content .alignfull {
   padding: 50px;
 } */
+
+.page-id-123 .wp-block-columns {
+  margin-top: 0;
+}
 
 .page-id-123 .entry-content .alignfull p {
   margin: 40px;
@@ -159,6 +189,10 @@ p {
 }
 .page-id-42 .wc-block-grid .wc-block-components-product-title {
   font-family: "neucha";
+}
+
+.entry-content h1 + h1 {
+  margin-top: 0;
 }
 
 .page-id-42 h1 {
@@ -252,6 +286,7 @@ p {
 .page-id-43 #site-content {
   background-color: #f2f2f2;
 }
+
 /* NYHEDSBREV */
 
 .mc4wp-form-fields {
