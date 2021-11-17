@@ -157,10 +157,28 @@ p {
 
 .page-id-123 .entry-content .alignfull p {
   margin: 40px;
-  margin-right: 50px;
+  margin-right: 30px;
   /* margin-top: 40px; */
   padding: 40px;
   line-height: 40px;
+}
+
+.page-id-123 .entry-content .alignfull .mb-0.pb-0 {
+  margin-top: 120px;
+}
+
+.page-id-123 .entry-content .alignfull .wp-image-367 {
+  margin: 50px;
+}
+.page-id-123 .entry-content .alignfull .wp-image-590 {
+  padding: 40px;
+}
+
+.page-id-123 .entry-content .alignfull .wp-image-596 {
+  padding: 40px;
+}
+.page-id-123 .entry-content .alignfull .wp-image-595 {
+  padding: 40px;
 }
 
 .page-id-123 #site-content {
