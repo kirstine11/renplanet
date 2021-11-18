@@ -22,14 +22,14 @@ body {
 h1 {
   font-family: "neucha";
   font-size: 3.5rem;
-  line-height: 1.5rem;
+  line-height: 3.5rem;
 }
 
 h2 {
   font-family: "Montserrat";
   font-size: 1.4rem;
   font-weight: 600;
-  line-height: 0.2rem;
+  line-height: 2.2rem;
 }
 
 p {
@@ -151,19 +151,17 @@ p {
 
 /* OM MIG SIDE  */
 
-/* .page-id-123 .entry-content .alignfull {
-  padding: 50px;
-} */
+.page-id-123 .entry-content .alignfull {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
 
 .page-id-123 .wp-block-columns {
   margin-top: 0;
 }
 
 .page-id-123 .entry-content .alignfull p {
-  margin: 40px;
-  margin-right: 50px;
-  /* margin-top: 40px; */
-  padding: 40px;
   line-height: 40px;
 }
 
@@ -171,11 +169,18 @@ p {
   background-color: #f2f2f2;
 }
 
-.page-id-123 h1 {
+/* .page-id-123 h1 {
   text-align: center;
-}
+} */
 
 /* SHOP  */
+
+.page-id-289 .woocommerce.columns-4 {
+  display: none;
+}
+.sku_wrapper {
+  display: none;
+}
 .page-id-42 #site-content {
   background-color: #f2f2f2;
 }
@@ -257,9 +262,8 @@ p {
 .woocommerce div.product form.cart .button {
   background-color: #1f7e73;
 }
-
-.woocommerce input.button.alt:disabled[disabled]:hover {
-  background-color: blue;
+.woocommerce div.product form.cart .button:hover {
+  background-color: #1f7e7349;
 }
 
 .wc-block-components-sort-select__select {
@@ -313,4 +317,34 @@ input[type="email"] {
 .site-footer {
   background-color: #b8cfd0;
   width: 100%;
+}
+
+@media (min-width: 650px) {
+  .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+
+.column,
+.column p {
+  text-align: left;
+}
+
+.icons {
+  width: 35px;
+  margin: 7px;
+}
+
+.site-footer {
+  background-color: #1f7e73;
+  padding: 50px 0;
+  border-top: solid 2px white;
+}
+
+.site-footer p {
+  color: white;
+  line-height: 1.2em;
 }
