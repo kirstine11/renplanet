@@ -34,7 +34,7 @@ h2 {
 
 p {
   font-family: "Montserrat";
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .wp-custom-logo .site-header {
@@ -339,6 +339,39 @@ input[type="email"] {
   margin-right: 10px;
 }
 
+/* landingpage */
+.page-id-715 .entry-content .alignfull {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.page-id-715 .entry-content .aligncenter {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.page-id-715 input[type="text"] {
+  border: 3px solid white;
+}
+
+.page-id-715 textarea {
+  border: 3px solid white;
+}
+
+.page-id-715 .coblocks-label {
+  font-family: "Montserrat";
+}
+
+.page-id-715 .wp-block-button__link {
+  border: solid 2px #1f7e73;
+  width: 9rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.page-id-715 h2 {
+  font-family: "neucha";
+}
 /* FOOTER  */
 
 .site-footer {
