@@ -317,6 +317,10 @@ p {
 .page-id-43 #site-content {
   background-color: #f2f2f2;
 }
+.wp-block-button.wc-block-components-product-button
+  .wc-block-components-product-button__button:hover {
+  background-color: rgba(0, 0, 0, 0.561);
+}
 
 /* NYHEDSBREV */
 
