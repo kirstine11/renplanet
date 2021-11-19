@@ -26,8 +26,8 @@ h1 {
 }
 
 h2 {
-  font-family: "Montserrat";
-  font-size: 1.4rem;
+  font-family: "neucha";
+  font-size: 30px;
   font-weight: 600;
   line-height: 2.2rem;
 }
@@ -47,6 +47,14 @@ p {
   text-transform: uppercase;
   font-family: "neucha";
   font-size: 25px;
+}
+
+.alt-nav li a:hover {
+  color: rgba(255, 255, 255, 0.317);
+}
+
+.alt-nav li a:active {
+  color: rgba(255, 255, 255, 0.317);
 }
 
 .site-header .custom-logo {
@@ -413,4 +421,21 @@ input[type="email"] {
   font-size: 1rem;
   line-height: 1.2em;
   margin: 1.2em;
+}
+
+@media (max-width: 1000px) {
+  .site-nav .menus > ul {
+    color: white;
+  }
+
+  .site-nav ul a {
+    border-bottom: 0;
+  }
+
+  .site-nav ul a:hover {
+    color: rgba(255, 255, 255, 0.55);
+  }
+  .nav-toggle .bar {
+    background-color: white;
+  }
 }
